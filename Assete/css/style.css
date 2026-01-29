@@ -114,7 +114,7 @@ ul li a:hover
 {
     width: 250px;
     height: 300px;
-    border: 4px solid red;
+    border: 1px solid var(--light-gray);
 }
 .card-container h2
 {
@@ -126,20 +126,23 @@ ul li a:hover
 {
     width: 100%;
     height: 200px;
-    border: 1px solid red;
     position: relative;
+    overflow: hidden;
 }
 .card-img img
 {
     width: 100%;
     height: 100%;
+    transition: all 0.5s ease;
 }
 .card-content 
 {
     width: 100%;
-    height: 92px;
-    border: 2px solid black;
+    height: 98px;
     padding: 10px 10px;
+    background: #ebeaea;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .card-content p
 {
@@ -150,13 +153,23 @@ ul li a:hover
 {
     color: #ffd220;
 }
-.img-hover
+.card-img img
 {
     position: absolute;
-    left: 0;
+}
+.img-hover
+{
     opacity: 0;
 }
-.card-img .imged:hover .img-hover
+.card-img:hover .img-hover
 {
     opacity: 1;
+    transform: scale(1.1);
 }
+
+
+
+
+
+
+/* Media  */
