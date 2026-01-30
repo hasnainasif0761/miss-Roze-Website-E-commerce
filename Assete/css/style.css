@@ -169,6 +169,7 @@ ul li a:hover {
 .card-img:hover .img-hover {
     opacity: 1;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .new-tag {
@@ -220,6 +221,27 @@ ul li a:hover {
     background: #fff;
     font-size: 14px;
 }
+
+/* Add View Section Start */
+
+.add-review-cont
+{
+    background: white;
+    box-shadow: 0px 0px 7px #626262b9;
+    border-radius: 5px;
+    text-align: center;
+}
+.add-review-cont h2
+{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--light-gray);
+}
+
+
+
+
+
 
 
 
