@@ -323,6 +323,118 @@ ul li a:hover {
     font-weight: 600;
     font-size: 20px;
 }
+.about-container
+{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.about-container h2
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000cd;
+}
+.about-container p
+{
+    font-size: 14px;
+    color: var(--light-gray);
+}
+.about-container ol li
+{
+    font-size: 14px;
+    color: var(--light-gray);
+    margin-bottom: 7px;
+}
+.about-container p:nth-child(2){
+    margin-bottom: 10px;
+}
+.about-container p:nth-child(3){
+    margin-bottom: 10px;
+}
+
+/* Testiminial Banner Section */
+.testimonial-banner
+{
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/testiminial-banner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.testimonial-content
+{
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    background: rgba(23, 23, 23, 0.524);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.testimonial-content h2
+{
+    font-size: 30px;
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+.testimonial-content p
+{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgba(233, 232, 232, 0.867);
+}
+.testimonial-content button
+{
+    background: white;
+    padding: 10px 30px;
+    border: none;
+    font-size: 12px;
+}
+
+/* Email Container Section */
+.email-cont
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.email-cont p
+{
+    font-size: 14px;
+    color: var(--light-gray);
+}
+.email-cont .email-input
+{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.email-cont .email-input input
+{
+    width: 95%;
+    border: none;
+}
 
 
 
@@ -366,6 +478,15 @@ ul li a:hover {
         width: 100%;
     }
     .public-content
+    {
+        width: 100%;
+    }
+    /* About Sectio  Container */
+    .about-container
+    {
+        width: 100%;
+    }
+    .testimonial-content
     {
         width: 100%;
     }
